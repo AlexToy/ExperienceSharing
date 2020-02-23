@@ -5,10 +5,13 @@
 #include <QGraphicsView>
 #include <QPushButton>
 
+#include "trunck.h"
+
 class WorkingZone : public QGraphicsScene
 {
 private:
     QPushButton *buton;
+    Trunck *trunck;
 
 public:
     QGraphicsView *view;

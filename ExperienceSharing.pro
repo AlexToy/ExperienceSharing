@@ -18,10 +18,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
+    trunck.cpp \
     workingzone.cpp
 
 HEADERS += \
     mainwindow.h \
+    trunck.h \
     workingzone.h
 
 TRANSLATIONS += \
