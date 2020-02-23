@@ -1,0 +1,18 @@
+#ifndef SCENEWORKINGZONE_H
+#define SCENEWORKINGZONE_H
+
+#include <QGraphicsScene>
+#include <QGraphicsView>
+#include <QPushButton>
+
+class SceneWorkingZone : public QGraphicsScene
+{
+private:
+    QPushButton *buton;
+    QGraphicsView *view;
+
+public:
+    SceneWorkingZone();
+};
+
+#endif // SCENEWORKINGZONE_H

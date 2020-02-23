@@ -17,10 +17,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    workingzone.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    workingzone.h
 
 TRANSLATIONS += \
     ExperienceSharing_fr_FR.ts
